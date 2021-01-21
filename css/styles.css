@@ -1,0 +1,99 @@
+.principal{
+    background-image: url(../assets/fondo1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.container{
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.navbar{
+    font-size: 20px ;
+    border-radius: 5px;
+}
+
+.clientes{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: space-evenly;
+}
+
+.borde{
+    display: grid;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.direccion{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    background-image: linear-gradient(#696969, #b8b8a9);
+    border-radius: 5px;
+}
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.horarios{
+    list-style: none;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.carousel-item img{
+    width:640px;
+    height:360px;
+}
+
+.formulario{
+    display: block;
+    max-width: 800px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.contacto{
+    text-align: center;
+}
+
+
+
+
+
+
+
