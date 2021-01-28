@@ -6,13 +6,13 @@
     background-color: #464646;
 }
 
-.container{
+/*.container{
     display: block;
     max-width: 1200px;
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-}
+}*/
 
 .encabezado{
     display: flex;
@@ -40,6 +40,8 @@
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     justify-content: space-evenly;
+    max-width: 1200px;
+    margin: auto;
 }
 
 h1{
@@ -50,6 +52,7 @@ h1{
 
 .direccion{
     font-weight: bold;
+    text-align: center;
 }
 
 footer{
@@ -99,6 +102,24 @@ footer{
 
 .borde{
     border-radius: 10px;
+}
+
+.centrado{
+    text-align: center;;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 
