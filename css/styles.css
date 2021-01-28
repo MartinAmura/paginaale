@@ -19,6 +19,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 30px;
+    width: 100%;
 }
 
 .navbar{
@@ -39,6 +40,7 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 6vw;
 }
 
 .direccion{
