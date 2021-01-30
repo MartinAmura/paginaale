@@ -1,12 +1,11 @@
 .redes {
   font-family: 'Orbitron', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   list-style: none;
   color: #3f4041;
-  align-items: center; }
-  .redes li a {
-    color: #3f4041;
-    text-decoration: none; }
+  text-decoration: none;}
+  
+  
 
 .navbar, h1, h2, .direccion, footer, .horarios {
   font-family: 'Orbitron', sans-serif;
@@ -16,7 +15,7 @@
   text-align: center; }
 
 h1 {
-  font-size: 5rem; }
+  font-size: 4rem; }
 
 h2 {
   font-size: 2rem; }
