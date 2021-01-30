@@ -11,12 +11,6 @@
     border-radius: 5px;
 }
 
-h1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .direccion{
     font-weight: bold;
     text-align: center;
@@ -29,13 +23,6 @@ footer{
     letter-spacing: 1px;
     background-image: linear-gradient(#696969, #b8b8a9);
     border-radius: 5px;
-}
-
-@media (max-width: 1000px){
-    .pie{
-        flex-direction: column;
-        align-items: flex-start;
-    }
 }
 
 .horarios{
@@ -92,6 +79,8 @@ footer{
     text-decoration: none;
     color: #3f4041;
 }
+
+
 
 
 
