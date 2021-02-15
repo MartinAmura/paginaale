@@ -9,11 +9,13 @@
 .navbar{
     font-size: 20px ;
     border-radius: 5px;
+    background-color: #3f4041;
 }
 
 .direccion{
     font-weight: bold;
     text-align: center;
+    color: #1b1c1d !important;
 }
 
 footer{
@@ -23,19 +25,18 @@ footer{
     letter-spacing: 1px;
     background-color: #3f4041 ;
     border-radius: 5px;
-    color: rgba(255,255,255,.5);
+    color: #7c7d7f;
     }
 
 .horarios{
     list-style: none;
-    font-style: italic;
     padding-left: 20px;
-    text-align: center;
+    color: #1b1c1d !important;
 }
 
 .carousel-item img{
     width:80%;
-    height:80%;
+    height:480px;
 }
 
 .formulario{
@@ -78,11 +79,11 @@ footer{
 
 .redes li a{
     text-decoration: none;
-    color: #3f4041;
+    color: #1b1c1d;
 }
 
 .tituloprincipal a{
-    color: #3f4041;
+    color: #5d5e5f;
     text-decoration: none;
 }
 
@@ -94,6 +95,7 @@ footer{
 .listserv{
     text-align: left;
     font-family: 'Orbitron', sans-serif;
+    color: #3f4041;
 }
 
 .imaca{
@@ -107,9 +109,16 @@ footer{
 
 .imgconsejos{
     width: 100%;
-    height: 100%;
+    height:480px;
     border-radius: 5px;
     margin-bottom: 15px;
+}
+
+.consejos{
+    margin-top: 2rem;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Orbitron', sans-serif;
 }
 
 h3{
