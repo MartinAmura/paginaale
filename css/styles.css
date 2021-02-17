@@ -9,7 +9,8 @@
 .navbar{
     font-size: 20px ;
     border-radius: 5px;
-    background-color: #3f4041;
+    background-color: #3f4041 !important;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .direccion{
